@@ -32,4 +32,9 @@ and rename for index.ejs
 # RESTFUL INSTALLATION
 npm install restify-clients@2.0.1 --save
 
+# AJAX
+chrome dev tools
+XHR
+F5
+output = users
 
