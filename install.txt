@@ -1,0 +1,31 @@
+install.txt
+
+# BOWER INSTALL
+
+npm install -g bower
+
+bower install
+
+
+# EXPRESS GENERATOR INSTALL
+
+npm install express-generator@4.16.0 -g
+
+express -h
+
+express --ejs client-server
+
+cd client-server
+
+npm install 
+
+npm start
+
+web
+localhost:3000
+
+copy frontend to public folder
+and index.html to view folder 
+and rename for index.ejs
+
+
