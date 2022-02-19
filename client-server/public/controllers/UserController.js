@@ -203,8 +203,7 @@ class UserController {
 
     selectAll() {
 
-        // let users = User.getUsersStorage();
-        HttpRequest.get('/users').then(data => {
+        User.getUsersStorage().then(data => {
 
             data.users.forEach(dataUser => {
 
