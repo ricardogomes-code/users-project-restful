@@ -101,7 +101,7 @@ class UserController {
                         this.formEl.reset();
 
                         btn.disabled = false;
-                        
+
                     });
 
                 },
@@ -262,12 +262,12 @@ class UserController {
 
                 user.loadFromJSON(JSON.parse(tr.dataset.user));
 
-                user.remove();
+                user.remove().then(user => {
 
-                tr.remove();
+                    tr.remove();
 
-                this.updateCount();
-
+                    this.updateCount();
+                });
             }
 
         });
